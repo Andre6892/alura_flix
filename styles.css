@@ -1,7 +1,9 @@
 body {
-    color: white;
-    background: black;
-    margin: 0px;
+color: white;
+  background: black;
+  margin: 0px;
+  font-family: "Chakra Petch", sans-serif;
+  margin-bottom: 100px;
 }
 
 header {
@@ -18,7 +20,11 @@ header {
   display: flex;
   justify-content: center;
 }
-
+.categoria {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 50px;
+}
 .chamada-texto {
     margin-right: 5%;
 }
@@ -30,13 +36,10 @@ h1 {
 p {
   font-size: 20px;
 }
-.categoria-videos {
-  display: flex;
-  overflow-x: auto;
-  gap: 10px;
+.categoria-videos img:hover {
+    opacity: 1.0;
 }
 
-section {
-  padding-left: 20px;
-  padding-right: 20px;
+.categoria h2 {
+color: rgb(42, 122, 228);
 }
